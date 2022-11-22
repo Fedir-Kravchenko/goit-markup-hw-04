@@ -162,12 +162,19 @@ body {
 /* 2. Hero */
 .hero {
   display: block;
-  padding: 200px;
-
-  background-color: var(--hero-footer-background);
-
   text-align: center;
   text-transform: uppercase;
+  padding: 200px 15px;
+
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../imeges/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .section .hero-title {
