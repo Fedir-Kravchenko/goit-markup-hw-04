@@ -429,12 +429,6 @@ body {
   display: inline-block;
   height: 44px;
   width: 44px;
-}
-
-.social-networcs .item {
-  display: inline-block;
-  height: 44px;
-  width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   background-position: center;
@@ -442,22 +436,22 @@ body {
   cursor: pointer;
 }
 
-.icon-instagram {
+.icon-instagram .link {
   background-image: url(../imeges/instagram2.png);
   background-size: 20px;
 }
 
-.icon-twitter {
+.icon-twitter .link {
   background-image: url(../imeges/twitter1.png);
   background-size: 20px;
 }
 
-.icon-facebook {
+.icon-facebook .link {
   background-image: url(../imeges/facebook1.png);
   background-size: 20px;
 }
 
-.icon-linkedin {
+.icon-linkedin .link {
   background-image: url(../imeges/linkedin.png);
   background-size: 20px;
 }
@@ -466,8 +460,8 @@ body {
   margin-right: 10px;
 }
 
-.social-networcs .item:hover,
-.social-networcs .item:focus {
+.social-networcs .link:hover,
+.social-networcs .link:focus {
   background-color: var(--accent-color);
 }
 
