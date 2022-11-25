@@ -295,7 +295,8 @@ body {
 }
 
 .work .section-title,
-.team .section-title {
+.team .section-title,
+.clients .section-title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
@@ -353,6 +354,7 @@ body {
 /* Постійні клієнти */
 
 .clients {
+  padding: 94px 0;
   text-align: center;
 }
 
