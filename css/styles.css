@@ -425,6 +425,12 @@ body {
   display: flex;
 }
 
+.social-networcs .link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+}
+
 .social-networcs .item {
   display: inline-block;
   height: 44px;
@@ -433,6 +439,7 @@ body {
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .icon-instagram {
@@ -457,6 +464,11 @@ body {
 
 .social-networcs .item:not(:last-child) {
   margin-right: 10px;
+}
+
+.social-networcs .item:hover,
+.social-networcs .item:focus {
+  background-color: var(--accent-color);
 }
 
 /* portfolio */
