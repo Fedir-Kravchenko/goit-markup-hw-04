@@ -364,6 +364,15 @@ body {
   padding: 60px 0;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-address {
+  margin-right: 70px;
+}
+
 .footer,
 .footer-address,
 .footer-contact {
@@ -401,6 +410,53 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+.title-social {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.social-networcs .item {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-instagram {
+  background-image: url(../imeges/instagram2.png);
+  background-size: 20px;
+}
+
+.icon-twitter {
+  background-image: url(../imeges/twitter1.png);
+  background-size: 20px;
+}
+
+.icon-facebook {
+  background-image: url(../imeges/facebook1.png);
+  background-size: 20px;
+}
+
+.icon-linkedin {
+  background-image: url(../imeges/linkedin.png);
+  background-size: 20px;
+}
+
+.social-networcs .item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* portfolio */
