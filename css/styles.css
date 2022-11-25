@@ -377,7 +377,7 @@ body {
 
   color: var(--footer-logo-color);
 
-  font-family: raleway, sans-serif;
+  font-family: 'raleway', sans-serif;
   font-size: 26px;
   line-height: 31px;
 }
