@@ -291,7 +291,6 @@ body {
 /* 4. Team */
 .team {
   padding: 94px 0;
-
   background-color: #f5f4fa;
 }
 
@@ -325,13 +324,57 @@ body {
 }
 
 .position {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-color);
 }
 
+.list-social .icon-social {
+  display: block;
+}
+
+.list-social {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-social {
+  padding: 12px;
+  fill: #afb1b8;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  fill: #ffffff;
+}
+
+.item-social .link {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.item-social .link:hover,
+.item-social .link:focus {
+  background-color: #2196f3;
+}
+
+.item-social:nth-child(4n) {
+  margin-right: 0;
+}
+
 .team-container {
   padding: 30px 0;
+
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -429,6 +472,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+.footer-icon-social {
+  fill: #ffffff;
 }
 
 .social-networcs .item:not(:last-child) {
