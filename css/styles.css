@@ -133,6 +133,7 @@ body {
 
 .contacts {
   display: flex;
+  align-items: center;
 }
 
 .contacts .item:not(:first-child) {
@@ -141,9 +142,9 @@ body {
 
 .mail,
 .phone {
-  display: block;
+  display: inline-flex;
   padding: 32px 0 32px;
-
+  align-items: center;
   color: var(--secondary-color);
 
   font-weight: 500;
@@ -152,10 +153,18 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contacts .mail:hover,
-.contacts .mail:focus,
-.contacts .phone:hover,
-.contacts .phone:focus {
+.icon-header-contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-header-contact:hover,
+.icon-header-contact:focus {
+  fill: #2196f3;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -390,6 +399,12 @@ body {
 .clients-list {
   display: flex;
   justify-content: center;
+}
+
+.link-icon {
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* 5. Footer */
