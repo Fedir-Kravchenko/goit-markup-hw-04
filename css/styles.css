@@ -240,22 +240,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.image-antenna::before {
-  background-image: url(../imeges/antenna2.png);
-}
-
-.image-clock::before {
-  background-image: url(../imeges/clock2.png);
-}
-
-.image-diagram::before {
-  background-image: url(../imeges/diagram1.png);
-}
-
-.image-astronaut::before {
-  background-image: url(../imeges/astronaut2.png);
-}
-
 .advantages-item:nth-child(4n) {
   margin-right: 0;
 }
@@ -367,24 +351,6 @@ body {
   justify-content: center;
 }
 
-.link-icon {
-  fill: #afb1b8;
-}
-
-.clients-item {
-  display: inline-block;
-  margin-right: 30px;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.clients-item:nth-child(6n) {
-  margin-right: 0px;
-}
-
 /* 5. Footer */
 
 .section.footer {
@@ -461,26 +427,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-}
-
-.icon-instagram .link {
-  background-image: url(../imeges/instagram2.png);
-  background-size: 20px;
-}
-
-.icon-twitter .link {
-  background-image: url(../imeges/twitter1.png);
-  background-size: 20px;
-}
-
-.icon-facebook .link {
-  background-image: url(../imeges/facebook1.png);
-  background-size: 20px;
-}
-
-.icon-linkedin .link {
-  background-image: url(../imeges/linkedin.png);
-  background-size: 20px;
 }
 
 .social-networcs .item:not(:last-child) {
