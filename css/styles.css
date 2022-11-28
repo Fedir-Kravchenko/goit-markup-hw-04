@@ -406,7 +406,6 @@ body {
 
 .clients-list {
   display: flex;
-  justify-content: center;
 }
 
 .clients-link {
@@ -419,6 +418,10 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
+}
+
+.clients-item {
+  display: block;
 }
 
 .clients-item:nth-child(6n) {
